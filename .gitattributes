@@ -1,1 +1,4 @@
 echo "*.dart linguist-detectable=true" >> .gitattributes
+git add .gitattributes
+git commit -m "Fix language detection"
+git push origin main
